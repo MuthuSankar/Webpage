@@ -1,0 +1,370 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My Webpage Style Code*/
+
+.main-wrapper{
+  margin: 0 auto;
+  width: 1000px;
+}
+a{
+  text-decoration: none;
+}
+body {
+  background-color: #303133;
+}
+header nav{
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+header nav ul{
+  float: left;
+}
+header nav ul li{
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+header nav ul li a{
+  font-family: monospace;
+  font-size: 16px;
+  color: #111;
+  line-height: 63px;
+}
+header .nav-login{
+  float: right;
+}
+header .nav-login form{
+  float: left;
+  padding-top: 15px;
+}
+header .nav-login form input{
+  float: left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border:none;
+  background-color: #ccc;
+  font-family: monospace;
+  font-size: 14px;
+  color: #111;
+  line-height: 30px;
+}
+header .nav-login form button{
+  float: left;
+  width: 60px;
+  height: 30px;
+  margin-right: 0px;
+  border:none;
+  background-color: #f3f3f3;
+  font-family: monospace;
+  font-size: 14px;
+  color: #111;
+  cursor: pointer;
+}
+header .nav-login form button:hover {
+  background-color: #ccc;
+
+}
+header .nav-login a{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border:none;
+  float: left;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: -3px;
+  background-color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+  color: #111;
+  line-height: 63px;
+  cursor: pointer;
+}
+.main-container{
+  padding-top: 40px;
+
+}
+.main-container h2{
+  font-family:ariel;
+  font-size: 46px;
+  color: #111;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* style for Sign up page*/
+.signup-form{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.signup-form input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border:none;
+  background-color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+  color: #111;
+  line-height: 40px;
+}
+.signup-form button{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 40px;
+  border:none;
+  background-color: #222;
+  font-family: monospace;
+  font-size: 16px;
+  color: #fff;
+  cursor:pointer;
+}
+.signup-form button:hover{
+  background-color: #111;
+}
+
+/* New Style for Infinity */
+#largeimage{
+  border-radius: 25px;
+  margin-left: 100px;
+  margin-top: 200px;
+  box-shadow: 0 4px 8px 0 #070707, 0 6px 20px 0 #070707;
+  border-radius: 25px;
+}
+
+#logo1{
+  padding-left: 410px;
+}
+
+#text{
+  color: #dedfe2;
+  font-style: bold;
+	font-family:'Roboto', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -60px;
+}
+#text2{
+  color: #7e7f82;
+	font-family:'Roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+#text3{
+  color: #dedfe2;
+	font-family:'Roboto', sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+}
+#text4{
+  color: #7e7f82;
+	font-family:'Roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.button {
+  background-image: linear-gradient(to right, #f45081, #c60fa2);
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  outline: none;
+  width: 180px;
+  height: 45px;
+  color: #ffffff;
+}
+
+/* Partner page css */
+.our-team-main
+{
+	width:350px;
+	height:200px;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+
+.our-team-main img
+{
+	border-radius:10px;
+	margin-bottom:10px;
+	width: 150px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:300px;
+	height:auto;
+	position:absolute;
+	top:5px;
+	left:10px;
+	padding:15px 15px 15px 15px;
+	text-align:middle;
+	background:#fff;
+
+}
+
+.team-front
+{
+	width:300px;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
