@@ -6,6 +6,8 @@ session_start();
 <html>
 <head>
   <title>Infinity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" sizes="320x200" href="images/whitelogo.png">
 </head>
@@ -14,9 +16,9 @@ session_start();
     <nav>
       <div class="main-wrapper">
         <ul>
-          <li><img src="images/logo.png" width="48px" height="62px"></li>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="partner.php">Partners</a></li>
+          <li><a href="index.php"><img src="images/logo.png"width="48px" height="62px"></a></li>
+          <li><a href="index.php" style="font-family:Ariel;">Home</a></li>
+          <li><a href="partner.php" style="font-family:Ariel;">Partners</a></li>
         </ul>
         <div class="nav-login">
           <?php

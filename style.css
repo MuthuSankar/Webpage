@@ -128,7 +128,7 @@ header nav ul li{
   padding-right: 10px;
 }
 header nav ul li a{
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #111;
   line-height: 63px;
@@ -149,7 +149,7 @@ header .nav-login form input{
   padding-right: 10px;
   border:none;
   background-color: #ccc;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #111;
   line-height: 30px;
@@ -161,7 +161,7 @@ header .nav-login form button{
   margin-right: 0px;
   border:none;
   background-color: #f3f3f3;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #111;
   cursor: pointer;
@@ -180,7 +180,7 @@ header .nav-login a{
   margin-left: 10px;
   margin-top: -3px;
   background-color: #fff;
-  font-family: monospace;
+  font-family:  Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #111;
   line-height: 63px;
@@ -191,7 +191,7 @@ header .nav-login a{
 
 }
 .main-container h2{
-  font-family:ariel;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 46px;
   color: #111;
   line-height: 50px;
@@ -211,7 +211,7 @@ header .nav-login a{
   margin-bottom: 4px;
   border:none;
   background-color: #fff;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #111;
   line-height: 40px;
@@ -223,7 +223,7 @@ header .nav-login a{
   height: 40px;
   border:none;
   background-color: #222;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #fff;
   cursor:pointer;
@@ -248,14 +248,14 @@ header .nav-login a{
 #text{
   color: #dedfe2;
   font-style: bold;
-	font-family:'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 40px;
   margin-top: -60px;
 }
 #text2{
   color: #7e7f82;
-	font-family:'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
   font-size: 25px;
@@ -263,7 +263,7 @@ header .nav-login a{
 }
 #text3{
   color: #dedfe2;
-	font-family:'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   text-align: center;
   font-size: 25px;
@@ -271,7 +271,7 @@ header .nav-login a{
 }
 #text4{
   color: #7e7f82;
-	font-family:'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
   font-size: 25px;
@@ -299,7 +299,7 @@ header .nav-login a{
 /* Partner page css */
 .our-team-main
 {
-	width:350px;
+  width:350px;
 	height:200px;
 	border-bottom:5px #323233 solid;
 	background:#fff;
@@ -347,11 +347,11 @@ header .nav-login a{
 
 .team-front
 {
+	background:#fff;
 	width:300px;
 	height:auto;
 	position:relative;
 	z-index:10;
-	background:#fff;
 	padding:15px;
 	bottom:0px;
 	transition: all 0.5s ease;
@@ -368,3 +368,27 @@ header .nav-login a{
 	border-color:#777;
 	transition:0.5s;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}S
